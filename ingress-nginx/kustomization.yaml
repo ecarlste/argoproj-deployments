@@ -7,4 +7,5 @@ resources:
 - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/baremetal/deploy.yaml
 
 patches:
+- path: overlays/production/ingress-nginx-controller-deployment.yaml
 - path: overlays/production/ingress-nginx-controller-service.yaml
