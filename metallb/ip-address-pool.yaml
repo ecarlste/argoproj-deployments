@@ -1,7 +1,7 @@
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
-  name: nat
+  name: local-cluster-pool
   namespace: metallb-system
 spec:
   addresses:
