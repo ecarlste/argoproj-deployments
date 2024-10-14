@@ -9,4 +9,5 @@ resources:
 # - ingress.yaml
 
 patches:
+- path: overlays/production/argocd-server-service.yaml
 - path: overlays/production/argocd-cmd-params-cm.yaml
