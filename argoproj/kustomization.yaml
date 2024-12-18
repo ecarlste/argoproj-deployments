@@ -3,4 +3,5 @@ kind: Kustomization
 
 resources:
   - base/argo-cd.yaml
+  - base/prometheus.yaml
   # - base/kube-prometheus-stack.yaml
