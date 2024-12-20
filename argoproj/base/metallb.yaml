@@ -11,7 +11,7 @@ spec:
   source:
     path: metallb
     repoURL: https://github.com/ecarlste/argoproj-deployments
-    targetRevision: ecarlste/metallb-ignore-ca-cert-changes
+    targetRevision: HEAD
   ignoreDifferences:
   - group: "apiextensions.k8s.io"
     kind: CustomResourceDefinition
