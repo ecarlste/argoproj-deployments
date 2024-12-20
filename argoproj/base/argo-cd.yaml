@@ -12,3 +12,7 @@ spec:
     path: argocd
     repoURL: https://github.com/ecarlste/argoproj-deployments
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
