@@ -11,10 +11,8 @@ spec:
   source:
     path: ingress-nginx
     repoURL: https://github.com/ecarlste/argoproj-deployments
-    targetRevision: ecarlste/argoproj-ingress-nginx
+    targetRevision: HEAD
   syncPolicy:
-    # syncOptions:
-    # - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
