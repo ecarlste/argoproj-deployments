@@ -5,7 +5,7 @@ namespace: argocd
 
 resources:
 - base/namespace.yaml
-# - base/argocd-server-http-ingress.yaml
+- base/argocd-server-http-ingress.yaml
 - https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.2/manifests/install.yaml
 
 patches:

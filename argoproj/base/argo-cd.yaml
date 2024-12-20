@@ -11,7 +11,7 @@ spec:
   source:
     path: argocd
     repoURL: https://github.com/ecarlste/argoproj-deployments
-    targetRevision: HEAD
+    targetRevision: ecarlste/local-argocd-ingress
   syncPolicy:
     automated:
       prune: true
