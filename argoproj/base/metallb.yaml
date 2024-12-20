@@ -11,7 +11,7 @@ spec:
   source:
     path: metallb
     repoURL: https://github.com/ecarlste/argoproj-deployments
-    targetRevision: ecarlste/argoproj-metallb
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
