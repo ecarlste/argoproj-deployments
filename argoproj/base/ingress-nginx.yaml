@@ -11,7 +11,7 @@ spec:
   source:
     path: ingress-nginx
     repoURL: https://github.com/ecarlste/argoproj-deployments
-    targetRevision: ecarlste/local-argocd-ingress
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
