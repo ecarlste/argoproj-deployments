@@ -5,9 +5,10 @@ namespace: argocd
 
 resources:
 - base/namespace.yaml
-# - base/argocd-server-http-ingress.yaml
+- base/argocd-server-grpc-ingress.yaml
+- base/argocd-server-http-ingress.yaml
 - https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.2/manifests/install.yaml
 
 patches:
-- path: overlays/production/argocd-server-service-nodeport.yaml
+- path: overlays/production/argocd-server-service.yaml
 - path: overlays/production/argocd-cmd-params-cm.yaml
